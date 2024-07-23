@@ -1,0 +1,32 @@
+scanf- getc()-'0'; para numero 
+scanf - getc(); para caracter
+
+
+printf:
+	- para printar string: prints(string); // para printar texto normal: prints("texto");
+	- para printar caracter: printc('c');
+	- para printar uma variável de número: 
+		- declare um char s[6];
+		-transforme o numero para string: itos(num, s, 10);
+		- printa a string: prints(s);
+
+não usar variável global
+delcarar uma variável por vez
+instruções uma por vez tmb, por exemplo:
+	int i = (i+1)* 10 /9; // errado
+	int i;
+	i = i + 1;
+	i = i * 10/9;
+
+
+não passar mais de 5 parâmetros para uma função
+
+includes:
+#include "std/io.h"
+#include "std/string.h"
+
+
+para limpar a tela: 
+
+sfill(0);
+__cursor=0;
